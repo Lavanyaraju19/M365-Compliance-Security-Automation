@@ -1,4 +1,4 @@
-
+M365-Compliance-Security-Automation
 [![GitHub Release][github-release-img]][release]
 [![PSGallery Release][psgallery-release-img]][psgallery]
 [![CI Pipeline][ci-pipeline-img]][ci-pipeline]
@@ -8,17 +8,17 @@
 [![PSGallery Downloads][psgallery-downloads-img]][psgallery]
 [![GitHub Issues][github-issues-img]][github-issues]
 
-ScubaGear is an assessment tool that verifies that a Microsoft 365 (M365) tenant’s configuration conforms to the policies described in the Secure Cloud Business Applications ([SCuBA](https://cisa.gov/scuba)) Secure Configuration Baseline [documents](/baselines/README.md).
+M365-Compliance-Security-Automation is an assessment tool that verifies that a Microsoft 365 (M365) tenant’s configuration conforms to the policies described in the Secure Cloud Business Applications ([SCuBA](https://cisa.gov/scuba)) Secure Configuration Baseline [documents](/baselines/README.md).
 
 > **Note**: This documentation can be read using [GitHub Pages](https://cisagov.github.io/ScubaGear).
 
 ## Target Audience
 
-ScubaGear is for M365 administrators who want to assess their tenant environments against CISA Secure Configuration Baselines.
+M365 administrators who want to assess their tenant environments against CISA Secure Configuration Baselines.
 
 ## Overview
 
-ScubaGear uses a three-step process:
+M365-Compliance-Security-Automation uses a three-step process:
 
 - **Step One** - PowerShell code queries M365 APIs for various configuration settings.
 - **Step Two** - It then calls [Open Policy Agent](https://www.openpolicyagent.org) (OPA) to compare these settings against Rego security policies written per the baseline documents.
